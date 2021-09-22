@@ -15,12 +15,12 @@
 }
 
 .container {
-    margin: 0 15%;
+    margin: 0 20%;
 }
 
 
 main .container {
-    padding: 140px 0;
+    padding: 100px 0 140px 0;
 }
 
 footer .container {
@@ -32,6 +32,18 @@ footer .container {
     content: '';
     display: table;
     clear: both;
+}
+
+.float-l {
+    float: left;
+}
+
+.w60p {
+    width: 60%;
+}
+
+.w30p {
+    width: 30%;
 }
 
 .bg-type-1 {
@@ -55,15 +67,30 @@ footer .container {
     color: #fff;
 }
 
+.button.primary {
+    background: #8EA1E1;
+    color: #fff;
+}
+
 h2 {
-    font-size: 42px;
+    font-size: 32px;
 }
 
 .mb-35px {
     margin-bottom: 35px;
 }
 
+.mr-10p {
+    margin-right: 10%;
+}
 
+.mt-20px {
+    margin-top: 20px;
+}
+
+.tx-align-center {
+    text-align: center;
+}
 
 /* HEADER */
 header {
@@ -72,18 +99,11 @@ header {
     font-size: 12px;
 }
 
-header .container .logo {
-    float: left;
-    width: 30%;
-}
-
 header .container .link {
-    float: left;
     width: 70%;
 }
 
 header .container .link ul {
-    float: left;
     padding: 10px 0;
 }
 
@@ -109,7 +129,6 @@ header .container .link > a {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
     color: #fff;
 }
 
@@ -119,6 +138,18 @@ header .container .link > a {
 
 .hero .container a:first-of-type {
     margin-right: 20px;
+}
+
+/* MAIN SECTIONS */
+section .container .image img {
+    display: block;
+    width: 100%;
+}
+
+main section:last-child .container h3 {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    padding: 10px;
 }
 
 /* FOOTER */
